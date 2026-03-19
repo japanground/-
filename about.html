@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>会社概要 — SAMPLE INC.</title>
+  <meta name="description" content="株式会社サンプルの会社概要。会社名・所在地・事業内容などの基本情報をご覧ください。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>S</text></svg>">
+</head>
+<body>
+
+  <!-- ====== Header ====== -->
+  <header class="site-header scrolled">
+    <a href="index.html" class="header-logo">
+      <span class="logo-en">SAMPLE INC.</span>
+      <span class="logo-jp">株式会社サンプル</span>
+    </a>
+    <nav class="site-nav">
+      <a href="philosophy.html">理念</a>
+      <a href="president.html">代表挨拶</a>
+      <a href="about.html" class="active">会社概要</a>
+      <a href="contact.html" class="nav-contact">Contact</a>
+    </nav>
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav">
+    <a href="philosophy.html">理念</a>
+    <a href="president.html">代表挨拶</a>
+    <a href="about.html">会社概要</a>
+    <a href="contact.html">お問い合わせ</a>
+  </nav>
+
+  <main>
+
+    <!-- ====== Page Hero ====== -->
+    <div class="page-hero">
+      <div class="container">
+        <div class="page-hero-inner">
+          <nav class="breadcrumb" aria-label="パンくずリスト">
+            <a href="index.html">Home</a>
+            <span class="breadcrumb-sep">/</span>
+            <span>Company</span>
+          </nav>
+          <span class="page-hero-en">Company Overview</span>
+          <h1 class="page-hero-title">会社概要</h1>
+          <p class="page-hero-jp">株式会社サンプル について</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== Overview Table ====== -->
+    <section class="company-overview">
+      <div class="container">
+
+        <div class="section-label fade-up">
+          <span>Company Info</span>
+        </div>
+        <h2 class="section-title fade-up" style="margin-bottom:60px;">会社情報</h2>
+
+        <div class="fade-up fade-up-delay-1">
+          <table class="overview-table">
+            <tbody>
+              <tr>
+                <th>会社名</th>
+                <td>株式会社サンプル</td>
+              </tr>
+              <tr>
+                <th>英語表記</th>
+                <td>SAMPLE INC.</td>
+              </tr>
+              <tr>
+                <th>設立</th>
+                <td>2010年4月1日</td>
+              </tr>
+              <tr>
+                <th>代表取締役</th>
+                <td>山田 太郎</td>
+              </tr>
+              <tr>
+                <th>資本金</th>
+                <td>1,000万円</td>
+              </tr>
+              <tr>
+                <th>従業員数</th>
+                <td>120名（グループ全体）</td>
+              </tr>
+              <tr>
+                <th>所在地</th>
+                <td>
+                  〒100-0001<br>
+                  東京都千代田区千代田1-1-1 サンプルビル 8F
+                </td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>03-0000-0000</td>
+              </tr>
+              <tr>
+                <th>事業内容</th>
+                <td>
+                  ・ITソリューション事業<br>
+                  ・コンサルティング事業<br>
+                  ・DXプロモーション事業<br>
+                  ・海外展開支援事業
+                </td>
+              </tr>
+              <tr>
+                <th>取引銀行</th>
+                <td>○○銀行 東京支店</td>
+              </tr>
+              <tr>
+                <th>主要取引先</th>
+                <td>
+                  株式会社○○ / ○○グループ / △△商事株式会社<br>
+                  （五十音順・一部抜粋）
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== Map / Access ====== -->
+    <section style="background:var(--bg-alt); padding:100px 0;">
+      <div class="container">
+        <div class="section-label fade-up">
+          <span>Access</span>
+        </div>
+        <h2 class="section-title fade-up" style="margin-bottom:60px;">アクセス</h2>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px;" class="fade-up fade-up-delay-1">
+          <!-- Map placeholder -->
+          <div style="width:100%; height:360px; background:var(--border); display:flex; align-items:center; justify-content:center; flex-direction:column; gap:12px; position:relative; overflow:hidden;">
+            <div style="position:absolute; inset:0; background: linear-gradient(135deg, #e8e5e0 0%, #d0cac1 100%);"></div>
+            <div style="position:relative; z-index:1; text-align:center;">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin:0 auto 12px;">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#8b7355"/>
+              </svg>
+              <p style="font-family:var(--ff-en); font-size:10px; letter-spacing:0.2em; color:var(--text-light); text-transform:uppercase;">Map Placeholder</p>
+              <p style="font-size:12px; color:var(--text-light); margin-top:8px;">実際のマップを埋め込んでください</p>
+            </div>
+          </div>
+
+          <!-- Access info -->
+          <div>
+            <div style="margin-bottom:40px;">
+              <div style="font-family:var(--ff-en); font-size:10px; font-weight:500; letter-spacing:0.2em; color:var(--accent); text-transform:uppercase; margin-bottom:16px;">Address</div>
+              <p style="font-size:14px; color:var(--text); line-height:2.2;">
+                〒100-0001<br>
+                東京都千代田区千代田1-1-1<br>
+                サンプルビル 8F
+              </p>
+            </div>
+
+            <div style="margin-bottom:40px;">
+              <div style="font-family:var(--ff-en); font-size:10px; font-weight:500; letter-spacing:0.2em; color:var(--accent); text-transform:uppercase; margin-bottom:16px;">By Train</div>
+              <ul style="list-style:none; display:flex; flex-direction:column; gap:12px;">
+                <li style="display:flex; gap:16px; font-size:14px; color:var(--text-light); line-height:1.8;">
+                  <span style="color:var(--accent); min-width:8px;">·</span>
+                  <span>○○線「○○駅」A1出口より徒歩3分</span>
+                </li>
+                <li style="display:flex; gap:16px; font-size:14px; color:var(--text-light); line-height:1.8;">
+                  <span style="color:var(--accent); min-width:8px;">·</span>
+                  <span>△△線「△△駅」B3出口より徒歩5分</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div style="font-family:var(--ff-en); font-size:10px; font-weight:500; letter-spacing:0.2em; color:var(--accent); text-transform:uppercase; margin-bottom:16px;">Hours</div>
+              <p style="font-size:14px; color:var(--text-light); line-height:2;">
+                月曜日〜金曜日 9:00〜18:00<br>
+                <span style="font-size:12px;">（土日祝日・年末年始を除く）</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== History ====== -->
+    <section style="background:var(--white); padding:100px 0;">
+      <div class="container">
+        <div class="section-label fade-up">
+          <span>History</span>
+        </div>
+        <h2 class="section-title fade-up" style="margin-bottom:60px;">沿革</h2>
+
+        <div style="max-width:720px;" class="fade-up fade-up-delay-1">
+          <div style="position:relative; padding-left:40px;">
+            <!-- Timeline line -->
+            <div style="position:absolute; left:0; top:8px; bottom:8px; width:1px; background:var(--border);"></div>
+
+            <!-- Timeline items -->
+            <div style="margin-bottom:40px; position:relative;">
+              <div style="position:absolute; left:-44px; top:5px; width:9px; height:9px; border-radius:50%; background:var(--accent);"></div>
+              <div style="font-family:var(--ff-en); font-size:11px; letter-spacing:0.15em; color:var(--accent); margin-bottom:8px;">2010.04</div>
+              <p style="font-size:14px; color:var(--text-light); line-height:2;">東京都千代田区に株式会社サンプルを設立。ITソリューション事業を開始。</p>
+            </div>
+
+            <div style="margin-bottom:40px; position:relative;">
+              <div style="position:absolute; left:-44px; top:5px; width:9px; height:9px; border-radius:50%; background:var(--accent);"></div>
+              <div style="font-family:var(--ff-en); font-size:11px; letter-spacing:0.15em; color:var(--accent); margin-bottom:8px;">2013.06</div>
+              <p style="font-size:14px; color:var(--text-light); line-height:2;">コンサルティング事業を本格展開。従業員数20名を突破。</p>
+            </div>
+
+            <div style="margin-bottom:40px; position:relative;">
+              <div style="position:absolute; left:-44px; top:5px; width:9px; height:9px; border-radius:50%; background:var(--accent);"></div>
+              <div style="font-family:var(--ff-en); font-size:11px; letter-spacing:0.15em; color:var(--accent); margin-bottom:8px;">2016.10</div>
+              <p style="font-size:14px; color:var(--text-light); line-height:2;">シンガポール現地法人設立。海外展開支援事業を開始。</p>
+            </div>
+
+            <div style="margin-bottom:40px; position:relative;">
+              <div style="position:absolute; left:-44px; top:5px; width:9px; height:9px; border-radius:50%; background:var(--accent);"></div>
+              <div style="font-family:var(--ff-en); font-size:11px; letter-spacing:0.15em; color:var(--accent); margin-bottom:8px;">2019.04</div>
+              <p style="font-size:14px; color:var(--text-light); line-height:2;">DXプロモーション事業を立ち上げ。従業員数50名を超える。</p>
+            </div>
+
+            <div style="margin-bottom:40px; position:relative;">
+              <div style="position:absolute; left:-44px; top:5px; width:9px; height:9px; border-radius:50%; background:var(--accent);"></div>
+              <div style="font-family:var(--ff-en); font-size:11px; letter-spacing:0.15em; color:var(--accent); margin-bottom:8px;">2022.01</div>
+              <p style="font-size:14px; color:var(--text-light); line-height:2;">現事務所（千代田区）へ移転。グループ全体の従業員数100名を突破。</p>
+            </div>
+
+            <div style="position:relative;">
+              <div style="position:absolute; left:-44px; top:5px; width:9px; height:9px; border-radius:50%; background:var(--text);"></div>
+              <div style="font-family:var(--ff-en); font-size:11px; letter-spacing:0.15em; color:var(--text); margin-bottom:8px;">2024.04</div>
+              <p style="font-size:14px; color:var(--text-light); line-height:2;">創業14周年。グループ全体の従業員数120名。さらなる成長へ向けて邁進中。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CTA ====== -->
+    <section style="background:var(--bg); padding:100px 0;">
+      <div class="container" style="text-align:center;">
+        <div class="section-label fade-up" style="justify-content:center; margin-bottom:40px;">
+          <span>Contact</span>
+        </div>
+        <h2 class="section-title fade-up" style="margin-bottom:24px;">お問い合わせ</h2>
+        <p style="font-size:14px; color:var(--text-light); line-height:2; margin-bottom:48px;" class="fade-up fade-up-delay-1">
+          ご質問・ご相談など、お気軽にお問い合わせください。
+        </p>
+        <div class="fade-up fade-up-delay-2">
+          <a href="contact.html" class="btn-primary">
+            <span>お問い合わせフォームへ</span>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== Footer ====== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-en">SAMPLE INC.</div>
+          <div class="logo-jp">株式会社サンプル</div>
+          <p class="tagline">
+            誠実さと創造性を胸に、<br>
+            社会に価値を届け続ける。
+          </p>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-nav-group">
+            <div class="group-title">Company</div>
+            <ul>
+              <li><a href="philosophy.html">理念</a></li>
+              <li><a href="president.html">代表挨拶</a></li>
+              <li><a href="about.html">会社概要</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-group">
+            <div class="group-title">Contact</div>
+            <ul>
+              <li><a href="contact.html">お問い合わせ</a></li>
+              <li><a href="contact.html">採用情報</a></li>
+              <li><a href="contact.html">取材・メディア</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-group">
+            <div class="group-title">Legal</div>
+            <ul>
+              <li><a href="#">プライバシーポリシー</a></li>
+              <li><a href="#">利用規約</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2024 SAMPLE INC. All rights reserved.</p>
+        <div class="footer-policy">
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
