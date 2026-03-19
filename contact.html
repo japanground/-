@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ — GROUND INC.</title>
+  <meta name="description" content="株式会社GROUNDへのお問い合わせはこちらから。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>G</text></svg>">
+</head>
+<body>
+
+  <!-- ====== Header ====== -->
+  <header class="site-header scrolled">
+    <a href="index.html" class="header-logo">
+      <span class="logo-en">GROUND INC.</span>
+      <span class="logo-jp">株式会社GROUND</span>
+    </a>
+    <nav class="site-nav">
+      <a href="philosophy.html">理念</a>
+      <a href="president.html">代表挨拶</a>
+      <a href="about.html">会社概要</a>
+      <a href="contact.html" class="nav-contact active">Contact</a>
+    </nav>
+    <button class="hamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav">
+    <a href="philosophy.html">理念</a>
+    <a href="president.html">代表挨拶</a>
+    <a href="about.html">会社概要</a>
+    <a href="contact.html">お問い合わせ</a>
+  </nav>
+
+  <main>
+
+    <!-- ====== Page Hero ====== -->
+    <div class="page-hero">
+      <div class="container">
+        <div class="page-hero-inner">
+          <nav class="breadcrumb" aria-label="パンくずリスト">
+            <a href="index.html">Home</a>
+            <span class="breadcrumb-sep">/</span>
+            <span>Contact</span>
+          </nav>
+          <span class="page-hero-en">Contact</span>
+          <h1 class="page-hero-title">お問い合わせ</h1>
+          <p class="page-hero-jp">ご質問・ご相談はお気軽にどうぞ</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== Contact Main ====== -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-inner">
+
+          <!-- Info -->
+          <div class="fade-up">
+            <h2 class="contact-info-title">Get in Touch</h2>
+            <p class="contact-info-text">
+              フラワーギフト・法人のご依頼・ブライダルのご相談など、<br>
+              どんなことでもお気軽にご連絡ください。<br><br>
+              担当者より2営業日以内にご返信いたします。
+            </p>
+
+            <div class="contact-detail">
+              <div class="contact-detail-item">
+                <span class="contact-detail-label">TEL</span>
+                <span class="contact-detail-value">078-414-7836</span>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-detail-label">Email</span>
+                <span class="contact-detail-value">info@ground.ne.jp</span>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-detail-label">Hours</span>
+                <span class="contact-detail-value">月〜土 10:00〜19:00</span>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-detail-label">Address</span>
+                <span class="contact-detail-value">神戸市中央区旭通1-1-1 2F</span>
+              </div>
+            </div>
+
+            <div style="margin-top:48px;">
+              <div style="font-family:var(--ff-en); font-size:10px; font-weight:500; letter-spacing:0.2em; color:var(--text-light); text-transform:uppercase; margin-bottom:16px;">お問い合わせ種別</div>
+              <div style="display:flex; flex-wrap:wrap; gap:10px;">
+                <span style="padding:8px 16px; border:1px solid var(--border); font-size:12px; letter-spacing:0.08em; color:var(--text-light);">フラワーギフト</span>
+                <span style="padding:8px 16px; border:1px solid var(--border); font-size:12px; letter-spacing:0.08em; color:var(--text-light);">法人・店舗向け</span>
+                <span style="padding:8px 16px; border:1px solid var(--border); font-size:12px; letter-spacing:0.08em; color:var(--text-light);">ブライダル</span>
+                <span style="padding:8px 16px; border:1px solid var(--border); font-size:12px; letter-spacing:0.08em; color:var(--text-light);">採用について</span>
+                <span style="padding:8px 16px; border:1px solid var(--border); font-size:12px; letter-spacing:0.08em; color:var(--text-light);">その他</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="contact-form fade-up fade-up-delay-2">
+            <form>
+              <div class="form-group">
+                <label for="category">お問い合わせ種別<span class="required">*</span></label>
+                <select id="category" name="category" required>
+                  <option value="" disabled selected>選択してください</option>
+                  <option value="gift">フラワーギフト</option>
+                  <option value="corporate">法人・店舗向けフラワー</option>
+                  <option value="bridal">ブライダルフラワー</option>
+                  <option value="recruit">採用について</option>
+                  <option value="other">その他</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="company">会社名・店舗名</label>
+                <input type="text" id="company" name="company" placeholder="株式会社〇〇 / 個人の方は不要">
+              </div>
+
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px;">
+                <div class="form-group">
+                  <label for="name">お名前<span class="required">*</span></label>
+                  <input type="text" id="name" name="name" placeholder="大谷 裕佳" required>
+                </div>
+                <div class="form-group">
+                  <label for="name-kana">フリガナ</label>
+                  <input type="text" id="name-kana" name="name_kana" placeholder="オオタニ ユカ">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">メールアドレス<span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="yuka@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="tel">電話番号</label>
+                <input type="tel" id="tel" name="tel" placeholder="078-000-0000">
+              </div>
+
+              <div class="form-group">
+                <label for="message">お問い合わせ内容<span class="required">*</span></label>
+                <textarea id="message" name="message" placeholder="ご希望のお花・ご予算・ご利用シーンなど、お気軽にご記入ください" required></textarea>
+              </div>
+
+              <div class="form-group">
+                <label style="flex-direction:row; align-items:flex-start; gap:12px; cursor:pointer;">
+                  <input type="checkbox" required style="margin-top:3px; width:auto; border-bottom:none; accent-color:var(--accent);">
+                  <span style="font-family:var(--ff-sans); font-size:12px; font-weight:300; letter-spacing:0.05em; color:var(--text-light); text-transform:none; line-height:1.8;">
+                    <a href="#" style="color:var(--accent); border-bottom:1px solid var(--accent-lt);">プライバシーポリシー</a>に同意します
+                  </span>
+                </label>
+              </div>
+
+              <div class="form-submit">
+                <button type="submit" class="btn-primary">
+                  <span>送信する</span>
+                  <span class="arrow">→</span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FAQ ====== -->
+    <section style="background:var(--bg-alt); padding:100px 0;">
+      <div class="container">
+        <div class="section-label fade-up">
+          <span>FAQ</span>
+        </div>
+        <h2 class="section-title fade-up" style="margin-bottom:60px;">よくあるご質問</h2>
+
+        <div style="max-width:720px; display:flex; flex-direction:column; gap:0;" class="fade-up fade-up-delay-1">
+
+          <details style="border-top:1px solid var(--border); padding:28px 0; cursor:pointer;">
+            <summary style="font-size:15px; font-weight:400; letter-spacing:0.06em; color:var(--text); list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px;">
+              <span>当日のお花の受け取りは可能ですか？</span>
+              <span style="color:var(--accent); font-size:20px; flex-shrink:0; line-height:1;">+</span>
+            </summary>
+            <p style="font-size:14px; color:var(--text-light); line-height:2.4; margin-top:20px;">
+              ご来店いただければ、当日のお渡しが可能です。ブーケやアレンジメントのご制作は事前のご予約をおすすめしております。お電話（078-414-7836）またはお問い合わせフォームからご連絡ください。
+            </p>
+          </details>
+
+          <details style="border-top:1px solid var(--border); padding:28px 0; cursor:pointer;">
+            <summary style="font-size:15px; font-weight:400; letter-spacing:0.06em; color:var(--text); list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px;">
+              <span>法人様向けの定期納品は対応していますか？</span>
+              <span style="color:var(--accent); font-size:20px; flex-shrink:0; line-height:1;">+</span>
+            </summary>
+            <p style="font-size:14px; color:var(--text-light); line-height:2.4; margin-top:20px;">
+              はい、対応しております。ホテル・レストラン・オフィス・商業施設など、さまざまな法人様への定期納品実績がございます。まずはお問い合わせフォームからご相談ください。
+            </p>
+          </details>
+
+          <details style="border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:28px 0; cursor:pointer;">
+            <summary style="font-size:15px; font-weight:400; letter-spacing:0.06em; color:var(--text); list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px;">
+              <span>ブライダルフラワーの相談をしたいのですが。</span>
+              <span style="color:var(--accent); font-size:20px; flex-shrink:0; line-height:1;">+</span>
+            </summary>
+            <p style="font-size:14px; color:var(--text-light); line-height:2.4; margin-top:20px;">
+              ブライダルフラワーのご相談は大歓迎です。ブーケ・装花・ウェルカムフラワーなど、お二人のご希望に合わせてご提案いたします。お問い合わせフォームの種別で「ブライダル」をお選びの上、ご希望の挙式日やイメージをお聞かせください。
+            </p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== Footer ====== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-en">GROUND INC.</div>
+          <div class="logo-jp">株式会社GROUND</div>
+          <p class="tagline">
+            人と自然が家族になる未来へ。<br>
+            神戸から、笑顔をお届けします。
+          </p>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-nav-group">
+            <div class="group-title">Company</div>
+            <ul>
+              <li><a href="philosophy.html">理念</a></li>
+              <li><a href="president.html">代表挨拶</a></li>
+              <li><a href="about.html">会社概要</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-group">
+            <div class="group-title">Contact</div>
+            <ul>
+              <li><a href="contact.html">お問い合わせ</a></li>
+              <li><a href="contact.html">法人のお客様</a></li>
+              <li><a href="contact.html">採用情報</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-group">
+            <div class="group-title">Legal</div>
+            <ul>
+              <li><a href="#">プライバシーポリシー</a></li>
+              <li><a href="#">利用規約</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2024 GROUND INC. All rights reserved.</p>
+        <div class="footer-policy">
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
